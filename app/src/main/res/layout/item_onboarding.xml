@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/img_love"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:text="Have a good time"
+        android:textSize="32sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#2F2E3E"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:text="You should take the time to help those \n who need you"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_get_started"
+        android:layout_marginTop="20dp"
+        android:text="Get Started"
+        android:textSize="20sp"
+        android:backgroundTint="#6D64FF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
